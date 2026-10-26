@@ -1,0 +1,35 @@
+# Esto es un comentario
+
+[propietario]
+nombre = "Gonzalo"
+edad = 30
+activo = true
+fecha_registro = 2026-10-26T14:09:00Z
+
+[servidor]
+ip = "192.168.1.100"
+puerto = 8080
+limite_conexiones = 5000
+coeficiente = 0.75
+
+# Una lista o arreglo de valores simples
+puertos_permitidos = [80, 443, 8080]
+
+# Una tabla anidada (también se puede escribir como [servidor.base_datos])
+[base_datos]
+motor = "postgresql"
+servidor = "localhost"
+puertos = [5432, 5433]
+conexiones_maximas = 100
+habilitado = true
+
+# Una lista de tablas (equivalente a un arreglo de objetos JSON)
+[[clientes]]
+id = 1
+nombre = "Empresa A"
+etiquetas = ["desarrollo", "activo"]
+
+[[clientes]]
+id = 2
+nombre = "Empresa B"
+etiquetas = ["soporte"]
