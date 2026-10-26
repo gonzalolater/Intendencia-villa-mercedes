@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "dotenv": "^18.0.9",
     "react": "latest",
     "react-dom": "latest"
   },
