@@ -1,21 +1,35 @@
+import React from "react";
+
 const priorities = [
   {
     number: "01",
-    title: "Una ciudad para encontrarnos",
+    title: "Proyecto AET (Aqua Electric Technology)",
     description:
-      "Espacios públicos cuidados, accesibles y pensados para compartir cada barrio.",
+      "Iniciativa de infraestructura y soberanía tecnológica. Combina una blockchain provincial, wallet virtual y criptomoneda estable con conservación hídrica, energía renovable carbono-neutral y minería cripto.",
   },
   {
     number: "02",
-    title: "Más oportunidades cerca",
+    title: "SLAT (Sistema / Wallet Digital)",
     description:
-      "Impulsar el trabajo, el comercio y el talento local para que Villa Mercedes siga creciendo.",
+      "Desarrollo de arquitectura y aplicación centrada en Web3, gestión de activos digitales y finanzas descentralizadas, enfocado en la integración de wallets y protocolos distribuidos.",
   },
   {
     number: "03",
-    title: "Un municipio que escucha",
+    title: "Ciudadano Tecnológico de Primer Nivel",
     description:
-      "Una gestión abierta, presente y construida junto a quienes viven la ciudad todos los días.",
+      "Marco de soberanía digital, gobernanza y modernización cívica para promover el uso activo de tecnologías avanzadas e IA en la interacción del ciudadano con la administración pública.",
+  },
+  {
+    number: "04",
+    title: "Orquestación de Denuncias con IA (SISTEM-A)",
+    description:
+      "Sistema inteligente de triaje y procesamiento automático de denuncias para la fiscalía. Utiliza agentes de IA para clasificar casos, calcular scoring dinámico de riesgo y acelerar la gestión judicial.",
+  },
+  {
+    number: "05",
+    title: "Auditoría, Flujos y Ciberseguridad",
+    description:
+      "Protocolos de ciberseguridad, análisis de vulnerabilidades y certificación de arquitecturas técnicas de grado militar para garantizar la integridad, auditoría forense y blindaje de sistemas críticos.",
   },
 ];
 
@@ -47,7 +61,7 @@ function Home() {
         </a>
         <nav aria-label="Navegación principal" className="main-nav">
           <a href="#proyecto">El proyecto</a>
-          <a href="#ejes">Ejes</a>
+          <a href="#proyectos">Ejes y Proyectos</a>
           <a className="nav-cta" href="#participa">
             Sé parte <ArrowIcon />
           </a>
@@ -71,8 +85,8 @@ function Home() {
               <span className="highlight">entre todos.</span>
             </h1>
             <p className="hero-description">
-              Una nueva manera de pensar Villa Mercedes: con ideas, escucha y
-              compromiso con cada barrio.
+              Una nueva manera de pensar Villa Mercedes: con innovación, tecnología,
+              escucha y compromiso con cada barrio.
             </p>
             <a className="button button-dark" href="#proyecto">
               Conocé el proyecto <ArrowIcon />
@@ -127,15 +141,15 @@ function Home() {
             <div className="intro-note">
               <p>
                 Villa Mercedes tiene todo para seguir creciendo. Creemos en una
-                ciudad que cuida lo que somos y abre caminos para lo que podemos
-                ser.
+                ciudad que cuida lo que somos, moderniza su gestión y abre caminos
+                tecnológicos para lo que podemos ser.
               </p>
               <p>
-                Este proyecto empieza escuchando. Porque las mejores ideas
-                nacen cuando las pensamos juntos.
+                Este proyecto combina la soberanía digital, la ciberseguridad y la
+                inteligencia artificial con soluciones reales para la comunidad.
               </p>
-              <a className="text-link" href="#ejes">
-                Nuestros ejes <ArrowIcon />
+              <a className="text-link" href="#proyectos">
+                Nuestros 5 proyectos clave <ArrowIcon />
               </a>
             </div>
           </div>
@@ -146,19 +160,19 @@ function Home() {
           </div>
         </section>
 
-        <section className="priorities-section" id="ejes">
+        <section className="priorities-section" id="proyectos">
           <div className="section-heading">
             <div>
-              <p className="section-index">02 / LO QUE NOS MUEVE</p>
+              <p className="section-index">02 / PROPUESTAS ESTRUCTURALES</p>
               <h2>
-                Ideas para una ciudad
+                Ideas y tecnología
                 <br />
-                que va por más.
+                para una ciudad que avanza.
               </h2>
             </div>
             <p>
-              Tres puntos de partida para construir, entre todos, la Villa
-              Mercedes que soñamos.
+              Cinco puntos de partida y proyectos estratégicos para transformar la
+              infraestructura, la seguridad y la gestión cívica de Villa Mercedes.
             </p>
           </div>
           <div className="priority-grid">
