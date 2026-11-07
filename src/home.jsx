@@ -31,6 +31,12 @@ const priorities = [
     description:
       "Protocolos de ciberseguridad, análisis de vulnerabilidades y certificación de arquitecturas técnicas de grado militar para garantizar la integridad, auditoría forense y blindaje de sistemas críticos.",
   },
+  {
+    number: "06",
+    title: "Reducción de Averiguación de Antecedentes a 5 Horas",
+    description:
+      "Modernización y automatización de los procesos de validación de antecedentes policiales y judiciales mediante flujos digitales integrados, eliminando demoras burocráticas y optimizando los tiempos de respuesta para el ciudadano.",
+  },
 ];
 
 function ArrowIcon() {
@@ -149,7 +155,7 @@ function Home() {
                 inteligencia artificial con soluciones reales para la comunidad.
               </p>
               <a className="text-link" href="#proyectos">
-                Nuestros 5 proyectos clave <ArrowIcon />
+                Nuestros proyectos clave <ArrowIcon />
               </a>
             </div>
           </div>
@@ -171,7 +177,7 @@ function Home() {
               </h2>
             </div>
             <p>
-              Cinco puntos de partida y proyectos estratégicos para transformar la
+              Puntos de partida y proyectos estratégicos para transformar la
               infraestructura, la seguridad y la gestión cívica de Villa Mercedes.
             </p>
           </div>
@@ -237,5 +243,7 @@ function Home() {
     </>
   );
 }
+
+export default Home;
 
 export default Home;
