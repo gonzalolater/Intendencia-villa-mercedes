@@ -691,7 +691,6 @@ p {
   .priority-card {
     padding: 22px 18px;
   }
-}
 
 @media (max-width: 680px) {
   .site-header {
@@ -882,5 +881,38 @@ p {
     transition-duration: 0.01ms !important;
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
+  }
+}
+/* Sección Sobre Mí */
+.about-section {
+  padding: 4rem 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  max-width: 800px;
+}
+
+.about-content p {
+  font-size: 1.125rem;
+  line-height: 1.7;
+  color: var(--text-color, #333);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-section {
+    padding: 2.5rem 1rem;
+  }
+  
+  .about-content p {
+    font-size: 1rem;
   }
 }
