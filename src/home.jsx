@@ -67,6 +67,7 @@ function Home() {
         </a>
         <nav aria-label="Navegación principal" className="main-nav">
           <a href="#proyecto">El proyecto</a>
+          <a href="#sobre-mi">Sobre mí</a>
           <a href="#proyectos">Ejes y Proyectos</a>
           <a className="nav-cta" href="#participa">
             Sé parte <ArrowIcon />
@@ -166,10 +167,31 @@ function Home() {
           </div>
         </section>
 
+        <section className="about-section" id="sobre-mi">
+          <div className="section-heading">
+            <div>
+              <p className="section-index">02 / SOBRE MÍ</p>
+              <h2>
+                Trayectoria, gestión
+                <br />
+                <span>y visión técnica.</span>
+              </h2>
+            </div>
+          </div>
+          <div className="about-content">
+            <p>
+              Soy <strong>Gonzalo Daniel Aguilar</strong>, Ingeniero de Software Senior y Arquitecto de Sistemas radicado en Villa Mercedes. Con más de 20 años de experiencia de campo en el sector industrial combinados con el liderazgo técnico en empresas de tecnología, inteligencia artificial y Web3, he dedicado mi carrera a diseñar infraestructuras robustas, seguras y escalables.
+            </p>
+            <p>
+              Mi enfoque combina el rigor técnico de la ciberseguridad y la automatización con un compromiso pragmático por resolver los problemas cotidianos de nuestra comunidad, transformando la tecnología en una herramienta real de modernización y soberanía cívica.
+            </p>
+          </div>
+        </section>
+
         <section className="priorities-section" id="proyectos">
           <div className="section-heading">
             <div>
-              <p className="section-index">02 / PROPUESTAS ESTRUCTURALES</p>
+              <p className="section-index">03 / PROPUESTAS ESTRUCTURALES</p>
               <h2>
                 Ideas y tecnología
                 <br />
@@ -201,7 +223,7 @@ function Home() {
             <span>M</span>
           </div>
           <div className="join-copy">
-            <p className="section-index">03 / ESTA CONVERSACIÓN ES DE TODOS</p>
+            <p className="section-index">04 / ESTA CONVERSACIÓN ES DE TODOS</p>
             <h2>
               Tu voz también
               <br />
