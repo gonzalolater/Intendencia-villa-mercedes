@@ -691,6 +691,18 @@ p {
   .priority-card {
     padding: 22px 18px;
   }
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.about-actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
 
 @media (max-width: 680px) {
   .site-header {
