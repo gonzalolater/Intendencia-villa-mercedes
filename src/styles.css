@@ -57,6 +57,49 @@ a {
   align-items: center;
   gap: 12px;
 }
+/* Corrección de contenedor y responsividad para la sección Sobre Mí */
+.about-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 4rem 1.5rem;
+}
+
+.about-container {
+  width: 100%;
+  max-width: 1200px; /* Ancho máximo estándar del sitio */
+  display: grid;
+  grid-template-columns: 1fr 1.5fr; /* Distribución simétrica título / contenido */
+  gap: 3rem;
+  align-items: start;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.about-text-block {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.about-actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+}
+
+/* Adaptación Responsive para móviles y tablets pequeñas */
+@media (max-width: 768px) {
+  .about-container {
+    grid-template-columns: 1fr; /* Pasa a una sola columna en pantallas chicas */
+    gap: 2rem;
+  }
+}
 
 .brand-mark {
   width: 42px;

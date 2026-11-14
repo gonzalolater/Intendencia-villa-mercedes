@@ -168,38 +168,40 @@ function Home() {
         </section>
 
 <section className="about-section" id="sobre-mi">
-          <div className="section-heading">
-            <div>
-              <p className="section-index">02 / SOBRE MÍ</p>
-              <h2>
-                Trayectoria, gestión
-                <br />
-                <span>y visión técnica.</span>
-              </h2>
+          <div className="about-container">
+            <div className="section-heading">
+              <div>
+                <p className="section-index">02 / SOBRE MÍ</p>
+                <h2>
+                  Trayectoria, gestión
+                  <br />
+                  <span>y visión técnica.</span>
+                </h2>
+              </div>
             </div>
-          </div>
-          <div className="about-content">
-            <div className="about-text-group">
-              <p>
-                Soy <strong>Gonzalo Daniel Aguilar</strong>, Ingeniero de Software Senior y Arquitecto de Sistemas radicado en Villa Mercedes. Con más de 20 años de experiencia de campo en el sector industrial combinados con el liderazgo técnico en empresas de tecnología, inteligencia artificial y Web3, he dedicado mi carrera a diseñar infraestructuras robustas, seguras y escalables.
-              </p>
-              <p>
-                Mi enfoque combina el rigor técnico de la ciberseguridad y la automatización con un compromiso pragmático por resolver los problemas cotidianos de nuestra comunidad, transformando la tecnología en una herramienta real de modernización y soberanía cívica.
-              </p>
-            </div>
-            <div className="about-actions">
-              <a
-                className="button button-dark"
-                href="https://www.linkedin.com/in/gonzalo-daniel-aguilar/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Conectar en LinkedIn <ArrowIcon />
-              </a>
+            <div className="about-content">
+              <div className="about-text-block">
+                <p>
+                  Soy <strong>Gonzalo Daniel Aguilar</strong>, Ingeniero de Software Senior y Arquitecto de Sistemas radicado en Villa Mercedes. Con más de 20 años de experiencia de campo en el sector industrial combinados con el liderazgo técnico en empresas de tecnología, inteligencia artificial y Web3, he dedicado mi carrera a diseñar infraestructuras robustas, seguras y escalables.
+                </p>
+                <p>
+                  Mi enfoque combina el rigor técnico de la ciberseguridad y la automatización con un compromiso pragmático por resolver los problemas cotidianos de nuestra comunidad, transformando la tecnología en una herramienta real de modernización y soberanía cívica.
+                </p>
+              </div>
+              <div className="about-actions">
+                <a
+                  className="button button-dark"
+                  href="https://www.linkedin.com/in/gonzalo-daniel-aguilar/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Conectar en LinkedIn <ArrowIcon />
+                </a>
+              </div>
             </div>
           </div>
         </section>
-        <section className="priorities-section" id="proyectos">
+          <section className="priorities-section" id="proyectos">
           <div className="section-heading">
             <div>
               <p className="section-index">03 / PROPUESTAS ESTRUCTURALES</p>
