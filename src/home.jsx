@@ -185,6 +185,16 @@ function Home() {
             <p>
               Mi enfoque combina el rigor técnico de la ciberseguridad y la automatización con un compromiso pragmático por resolver los problemas cotidianos de nuestra comunidad, transformando la tecnología en una herramienta real de modernización y soberanía cívica.
             </p>
+            <div className="about-actions" style={{ marginTop: "1.5rem", display: "flex", gap: "1rem", flexWrap: "wrap" }}>
+              <a
+                className="button button-dark"
+                href="https://www.linkedin.com/in/gonzalo-daniel-aguilar/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Conectar en LinkedIn <ArrowIcon />
+              </a>
+            </div>
           </div>
         </section>
 
