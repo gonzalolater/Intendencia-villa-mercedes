@@ -1,11 +1,11 @@
 import React from "react";
 
 const priorities = [
-  {
+{
     number: "01",
     title: "Reducción de Averiguación de Antecedentes a 5 Horas",
     description:
-      "Modernización y automatización de los procesos de validación de antecedentes policiales y judiciales mediante flujos digitales integrados, eliminando demoras burocráticas y optimizando los tiempos de respuesta para el ciudadano.",
+      "Implementación de un nodo central de identificación biométrica rápida de uso exclusivo policial. Reemplaza el fichaje manual en papel por validación dactilar instantánea, erradicando demoras inhumanas de 24 horas sin asistencia ni medicación y garantizando tiempos de respuesta dignos y eficientes.",
   },
   {
     number: "02",
