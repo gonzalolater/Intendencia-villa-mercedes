@@ -3,39 +3,45 @@ import React from "react";
 const priorities = [
   {
     number: "01",
-    title: "Proyecto AET (Aqua Electric Technology)",
+    title: "Reducción de Averiguación de Antecedentes a 5 Horas",
     description:
-      "Iniciativa de infraestructura y soberanía tecnológica. Combina una blockchain provincial, wallet virtual y criptomoneda estable con conservación hídrica, energía renovable carbono-neutral y minería cripto.",
+      "Modernización y automatización de los procesos de validación de antecedentes policiales y judiciales mediante flujos digitales integrados, eliminando demoras burocráticas y optimizando los tiempos de respuesta para el ciudadano.",
   },
   {
     number: "02",
-    title: "SLAT (Sistema / Wallet Digital)",
-    description:
-      "Desarrollo de arquitectura y aplicación centrada en Web3, gestión de activos digitales y finanzas descentralizadas, enfocado en la integración de wallets y protocolos distribuidos.",
-  },
-  {
-    number: "03",
-    title: "Ciudadano Tecnológico de Primer Nivel",
-    description:
-      "Marco de soberanía digital, gobernanza y modernización cívica para promover el uso activo de tecnologías avanzadas e IA en la interacción del ciudadano con la administración pública.",
-  },
-  {
-    number: "04",
     title: "Orquestación de Denuncias con IA (SISTEM-A)",
     description:
       "Sistema inteligente de triaje y procesamiento automático de denuncias para la fiscalía. Utiliza agentes de IA para clasificar casos, calcular scoring dinámico de riesgo y acelerar la gestión judicial.",
   },
   {
-    number: "05",
+    number: "03",
     title: "Auditoría, Flujos y Ciberseguridad",
     description:
       "Protocolos de ciberseguridad, análisis de vulnerabilidades y certificación de arquitecturas técnicas de grado militar para garantizar la integridad, auditoría forense y blindaje de sistemas críticos.",
   },
   {
-    number: "06",
-    title: "Reducción de Averiguación de Antecedentes a 5 Horas",
+    number: "04",
+    title: "Polo de Manufactura 3D, Robótica Modular y Energía",
     description:
-      "Modernización y automatización de los procesos de validación de antecedentes policiales y judiciales mediante flujos digitales integrados, eliminando demoras burocráticas y optimizando los tiempos de respuesta para el ciudadano.",
+      "Articulación de generación energética con un centro municipal de impresión 3D y desarrollo electromecánico. Fabricación local de drones y plataformas robóticas modulares adaptables para el agro, la sanidad ambiental y la asistencia civil.",
+  },
+  {
+    number: "05",
+    title: "Ciudadano Tecnológico de Primer Nivel",
+    description:
+      "Marco de soberanía digital, gobernanza y modernización cívica para promover el uso activo de tecnologías avanzadas e IA en la interacción del ciudadano con la administración pública.",
+  },
+  {
+    number: "06",
+    title: "Proyecto AET (Aqua Electric Technology)",
+    description:
+      "Iniciativa de infraestructura y soberanía tecnológica. Combina una blockchain provincial, wallet virtual y criptomoneda estable con conservación hídrica, energía renovable carbono-neutral y minería cripto.",
+  },
+  {
+    number: "07",
+    title: "SLAT (Sistema / Wallet Digital)",
+    description:
+      "Desarrollo de arquitectura y aplicación centrada en Web3, gestión de activos digitales y finanzas descentralizadas, enfocado en la integración de wallets y protocolos distribuidos.",
   },
 ];
 
@@ -167,7 +173,7 @@ function Home() {
           </div>
         </section>
 
-<section className="about-section" id="sobre-mi">
+        <section className="about-section" id="sobre-mi">
           <div className="about-container">
             <div className="section-heading">
               <div>
@@ -201,7 +207,8 @@ function Home() {
             </div>
           </div>
         </section>
-          <section className="priorities-section" id="proyectos">
+
+        <section className="priorities-section" id="proyectos">
           <div className="section-heading">
             <div>
               <p className="section-index">03 / PROPUESTAS ESTRUCTURALES</p>
